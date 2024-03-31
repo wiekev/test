@@ -5,11 +5,18 @@
 
 body{
     background-color: #EFEFE8;
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0.2fr 1.5fr;
+    grid-template-areas: "nav nav" "tekst foto-hooft";
+    grid-gap: 1em;
 }
 
 nav{
     background-color: #5A4632;
     padding: 1%;
+    grid-area: nav;
 }
 
 ul{
@@ -18,22 +25,23 @@ ul{
 
 li{
     display: inline;
-    margin: 10%;
+    margin: 8%;
 }
 
 li a{
     text-align: center;
     text-decoration: none;
     color: #EFEFE8;
+    font-size: 1.5em;
 }
 
 .bezig-pagina{
     color: black;
 }
 
-.tekst-foto{
-    display: flex;
-    margin: 3em;
+.tekst{
+    grid-area: tekst;
+    margin-left: 1em;
 }
 
 p{
@@ -44,4 +52,15 @@ p{
 
 .foto-hooft{
     width: 500px;
+    margin-left: 1em;
+    object-fit: contain;
+    grid-area: foto-hooft;
+}
+
+@media only screen and (max-width: 800px) {
+    body{
+        grid-template-columns: 1fr;
+        grid-template-rows: 0.2fr 3fr 3fr;
+        grid-template-areas: "nav" "tekst" "foto-hooft";
+    }
 }
