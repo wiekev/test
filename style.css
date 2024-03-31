@@ -33,6 +33,7 @@ li a{
     text-decoration: none;
     color: #EFEFE8;
     font-size: 1.5em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .bezig-pagina{
@@ -40,15 +41,18 @@ li a{
 }
 
 .tekst{
-    grid-area: tekst;
-    margin-left: 1.5em;
+    margin-left: 3.5em;
     margin-right: 1em;
+    margin-top: 1em;
+    grid-area: tekst;
 }
 
 p{
     font-size: 1.5em;
     margin-bottom: 1em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+
 
 .foto-hooft{
     width: 400px;
