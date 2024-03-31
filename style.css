@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #EFEFE8;
+}
+
+nav{
+    background-color: #5A4632;
+    padding: 1%;
+}
+
+ul{
+    list-style-type: none;
+}
+
+li{
+    display: inline;
+    margin: 10%;
+}
+
+li a{
+    text-align: center;
+    text-decoration: none;
+    color: #EFEFE8;
+}
+
+.bezig-pagina{
+    color: black;
+}
+
+.tekst-foto{
+    display: flex;
+    margin: 3em;
+}
+
+p{
+    margin-right: 2em;
+    font-size: 1.5em;
+    margin-bottom: 1em;
+}
+
+.foto-hooft{
+    width: 500px;
+}
