@@ -16,6 +16,8 @@ body{
 nav{
     background-color: #5A4632;
     padding: 1%;
+    position: fixed;
+    width: 100%;
     grid-area: nav;
 }
 
@@ -43,7 +45,7 @@ li a{
 .tekst{
     margin-left: 3.5em;
     margin-right: 1em;
-    margin-top: 1em;
+    margin-top: 4em;
     grid-area: tekst;
 }
 
@@ -53,13 +55,89 @@ p{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-
 .foto-hooft{
     width: 400px;
     object-fit: contain;
     margin-left: auto;
     margin-right: auto;
     grid-area: foto-hooft;
+}
+
+img{
+    margin-top: 4em;
+    width: 350px;
+    margin-left: 1em;
+}
+
+.foto-tekst-midden{
+    border: #EFEFE8;
+    border-right: 0;
+    border-left: 0;
+    border-top: 0;
+    border-style: solid;
+
+}
+
+.foto-tekst-midden img{
+    display: block;
+    margin: auto;
+}
+
+.foto-tekst-midden p{
+    text-align: center;
+    font-style: oblique;
+}
+
+.foto-tekst-midden-boven img{
+    display: block;
+    margin: auto;
+}
+
+.foto-tekst-midden-boven p{
+    text-align: center;
+    font-style: oblique;
+}
+
+.foto-tekst-midden-beneden{
+    border: #EFEFE8;
+    border-right: 0;
+    border-left: 0;
+    border-top: 0;
+    border-style: solid;
+}
+
+.foto-tekst-midden-beneden img{
+    display: block;
+    margin: auto;
+}
+
+.foto-tekst-midden-beneden p{
+    text-align: center;
+    font-style: oblique;
+}
+
+.foto-tekst-midden-top{
+    border: #EFEFE8;
+    border-right: 0;
+    border-left: 0;
+    border-top: 0;
+    border-style: solid;
+    margin-top: 5em;
+
+}
+
+.foto-tekst-midden-top img{
+    display: block;
+    margin: auto;
+}
+
+.foto-tekst-midden-top p{
+    text-align: center;
+    font-style: oblique;
+}
+
+.achtergrond{
+    background-color: gray;
 }
 
 @media only screen and (max-width: 800px) {
