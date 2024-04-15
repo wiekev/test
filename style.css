@@ -3,7 +3,7 @@
     padding: 0;
 }
 
-body{
+.pagina-home{
     background-color: #EFEFE8;
     display: grid;
     height: 100vh;
@@ -54,6 +54,7 @@ p{
     margin-bottom: 1em;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+
 
 .foto-hooft{
     width: 400px;
@@ -136,12 +137,23 @@ img{
     font-style: oblique;
 }
 
-.achtergrond{
+.pagina-fotos{
     background-color: gray;
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0.2fr 1.5fr;
+    grid-template-areas: "nav nav" "tekst foto-hooft";
+    grid-gap: 1em;
 }
 
+.pagina-contact{
+    background-color: #EFEFE8;
+}
+
+
 @media only screen and (max-width: 800px) {
-    body{
+    .pagina-home , .pagina-fotos{
         grid-template-columns: 1fr;
         grid-template-rows: 0.2fr 3fr 3fr;
         grid-template-areas: "nav" "tekst" "foto-hooft";
