@@ -15,7 +15,7 @@
 
 nav{
     background-color: #5A4632;
-    padding: 1%;
+    padding: 1.5%;
     position: fixed;
     width: 100%;
     grid-area: nav;
@@ -50,7 +50,7 @@ li a{
 }
 
 p{
-    font-size: 1.5em;
+    font-size: 1.2em;
     margin-bottom: 1em;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
@@ -147,12 +147,34 @@ img{
     grid-gap: 1em;
 }
 
+.pagina-fotos-bruin{
+    background-color: #5A4632;
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0.2fr 1.5fr;
+    grid-template-areas: "nav nav" "tekst foto-hooft";
+    grid-gap: 1em;
+}
+
+.tekst-wit{
+    color: white;
+}
+
+.bruin{
+    background-color: #4869A2;
+    padding: 1.5%;
+    position: fixed;
+    width: 100%;
+    grid-area: nav;
+}
+
 .pagina-contact{
     background-color: #EFEFE8;
 }
 
 .contact{
-    padding-top: 3em;
+    padding-top: 5em;
     padding-left: 2em;
 }
 
