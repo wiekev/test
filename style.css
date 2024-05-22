@@ -4,7 +4,7 @@
 }
 
 .pagina-home{
-    background-color: #EFEFE8;
+    background-color: #5A4632;
     display: grid;
     height: 100vh;
     grid-template-columns: 1fr 1fr;
@@ -15,6 +15,10 @@
 
 nav{
     background-color: #5A4632;
+    border-color: white;
+    border-style: double;
+    border-left: 0;
+    border-top: 0;
     padding: 1.5%;
     position: fixed;
     width: 100%;
@@ -27,15 +31,15 @@ ul{
 
 li{
     display: inline;
-    margin: 8%;
+    margin: 5%;
 }
 
 li a{
     text-align: center;
     text-decoration: none;
     color: #EFEFE8;
-    font-size: 1.5em;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.3em;
+    font-family: corbel;
 }
 
 .bezig-pagina{
@@ -50,16 +54,18 @@ li a{
 }
 
 p{
+    color: white;
     font-size: 1.2em;
     margin-bottom: 1em;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: corbel;
 }
 
 
 .foto-hooft{
     width: 400px;
     object-fit: contain;
-    margin-left: auto;
+    padding-top: 4em;
+    margin: auto;
     margin-right: auto;
     grid-area: foto-hooft;
 }
@@ -71,12 +77,11 @@ img{
 }
 
 .foto-tekst-midden{
-    border: #EFEFE8;
+    border: #1C54A6;
     border-right: 0;
     border-left: 0;
     border-top: 0;
     border-style: solid;
-
 }
 
 .foto-tekst-midden img{
@@ -89,18 +94,18 @@ img{
     font-style: oblique;
 }
 
-.foto-tekst-midden-boven img{
+.foto-tekst-midden-3 img{
     display: block;
     margin: auto;
 }
 
-.foto-tekst-midden-boven p{
+.foto-tekst-midden-3 p{
     text-align: center;
     font-style: oblique;
 }
 
 .foto-tekst-midden-beneden{
-    border: #EFEFE8;
+    border: #1C54A6;
     border-right: 0;
     border-left: 0;
     border-top: 0;
@@ -118,7 +123,7 @@ img{
 }
 
 .foto-tekst-midden-top{
-    border: #EFEFE8;
+    border: #1C54A6;
     border-right: 0;
     border-left: 0;
     border-top: 0;
@@ -138,16 +143,6 @@ img{
 }
 
 .pagina-fotos{
-    background-color: gray;
-    display: grid;
-    height: 100vh;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 0.2fr 1.5fr;
-    grid-template-areas: "nav nav" "tekst foto-hooft";
-    grid-gap: 1em;
-}
-
-.pagina-fotos-bruin{
     background-color: #5A4632;
     display: grid;
     height: 100vh;
@@ -157,20 +152,8 @@ img{
     grid-gap: 1em;
 }
 
-.tekst-wit{
-    color: white;
-}
-
-.bruin{
-    background-color: #4869A2;
-    padding: 1.5%;
-    position: fixed;
-    width: 100%;
-    grid-area: nav;
-}
-
 .pagina-contact{
-    background-color: #EFEFE8;
+    background-color: #5A4632;
 }
 
 .contact{
@@ -185,4 +168,9 @@ img{
         grid-template-rows: 0.2fr 3fr 3fr;
         grid-template-areas: "nav" "tekst" "foto-hooft";
     }
+}
+
+@font-face {
+    font-family: 'corbel';
+    src: url('fonts/corbel/corbel.ttf');
 }
