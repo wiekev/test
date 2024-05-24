@@ -182,6 +182,6 @@ img{
 }
 
 @font-face {
-    font-family: 'corbel';
-    src: url('./fonts/corbel.TTF');
+    font-family: "corbel";
+    src: url(./fonts/corbel.TTF);
 }
