@@ -3,6 +3,11 @@
     padding: 0;
 }
 
+@font-face {
+    font-family: corbel;
+    src: url(./fonts/corbel.TTF);
+}
+
 .pagina-home{
     background-color: #5A4632;
     display: grid;
@@ -181,7 +186,3 @@ img{
     }
 }
 
-@font-face {
-    font-family: "corbel";
-    src: url(./fonts/corbel.TTF);
-}
