@@ -58,6 +58,13 @@ li a{
     color: black;
 }
 
+.tekst-en{
+    margin-left: 4%;
+    margin-right: 4%;
+    margin-top: 120%;
+    grid-area: tekst;
+}
+
 .tekst{
     margin-left: 4%;
     margin-right: 4%;
@@ -65,9 +72,18 @@ li a{
     grid-area: tekst;
 }
 
+
+
 p{
     color: white;
     font-size: 1.2em;
+    margin-bottom: 1em;
+    font-family: corbel;
+}
+
+h2{
+    color: white;
+    font-size: 1.5em;
     margin-bottom: 1em;
     font-family: corbel;
 }
