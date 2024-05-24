@@ -23,15 +23,18 @@ nav{
     position: fixed;
     width: 100%;
     grid-area: nav;
+    
+}
+
+li{
+    display: inline-flex;
+    margin: 1%;
 }
 
 ul{
     list-style-type: none;
-}
-
-li{
-    display: inline;
-    margin: 5%;
+    display: flex;
+    justify-content: space-around;
 }
 
 li a{
@@ -77,7 +80,7 @@ img{
 }
 
 .foto-tekst-midden{
-    border: #1C54A6;
+    border: #BC9E84;
     border-right: 0;
     border-left: 0;
     border-top: 0;
@@ -105,7 +108,7 @@ img{
 }
 
 .foto-tekst-midden-beneden{
-    border: #1C54A6;
+    border: #BC9E84;
     border-right: 0;
     border-left: 0;
     border-top: 0;
@@ -123,7 +126,7 @@ img{
 }
 
 .foto-tekst-midden-top{
-    border: #1C54A6;
+    border: #BC9E84;
     border-right: 0;
     border-left: 0;
     border-top: 0;
@@ -159,6 +162,10 @@ img{
 .contact{
     padding-top: 5em;
     padding-left: 2em;
+}
+
+.tekst-margin-links{
+    margin-left: 2em;
 }
 
 
